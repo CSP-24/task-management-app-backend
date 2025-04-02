@@ -1,0 +1,6 @@
+{
+  "routeKey": "DELETE /tasks/{id}",
+  "pathParameters": {
+    "id": "36369cba"
+  }
+}

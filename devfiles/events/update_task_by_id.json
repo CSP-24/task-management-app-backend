@@ -1,0 +1,7 @@
+{
+  "routeKey": "PUT /tasks/{id}",
+  "pathParameters": {
+    "id": "36369dba"
+  },
+  "body": "{\"title\":\"myTitle\",\"description\":\"myDescription\",\"status\":\"Completed\"}"
+}

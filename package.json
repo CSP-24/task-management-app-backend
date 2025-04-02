@@ -1,0 +1,27 @@
+{
+  "name": "task-management-app-backend",
+  "version": "1.0.0",
+  "description": "backend for task management app",
+  "main": "src/index.mjs",
+  "repository": "",
+  "author": "",
+  "license": "MIT",
+  "scripts": {
+    "local": "sam local invoke -e ./devfiles/events/get_all_tasks.json -t ./devfiles/template.yaml --skip-pull-image",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix ."
+  },
+  "devDependencies": {
+    "@aws-sdk/client-dynamodb": "^3.777.0",
+    "@aws-sdk/lib-dynamodb": "^3.778.0",
+    "@eslint/js": "^9.23.0",
+    "eslint": "^9.23.0",
+    "eslint-config-prettier": "^10.1.1",
+    "eslint-plugin-prettier": "^5.2.5",
+    "globals": "^16.0.0",
+    "prettier": "3.5.3"
+  },
+  "dependencies": {
+    "yup": "^1.6.1"
+  }
+}

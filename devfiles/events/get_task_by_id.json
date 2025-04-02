@@ -1,0 +1,6 @@
+{
+  "routeKey": "GET /tasks/{id}",
+  "pathParameters": {
+    "id": "test-id"
+  }
+}
